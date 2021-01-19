@@ -1,4 +1,7 @@
 /.idea/
-*/target/
 /project/target/
-
+/target/
+/akkaGrpc/target/
+/protoGrpc/target/
+/util/
+/core/
