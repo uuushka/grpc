@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: akkaGrpc / Compile / compile, protoGrpc / Compile / compile, Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m[[0m[0minfo[0m] [0m[0mProtobufs files found, but PB.targets is empty.[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 protobuf files to /home/aleksey/repos/otus-scala-grpc/protoGrpc/target/scala-2.13/src_managed/main/scalapb[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /home/aleksey/repos/otus-scala-grpc/protoGrpc/src/main/protobuf/helloworld3.proto[0m
+[0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 protobuf files to /home/aleksey/repos/otus-scala-grpc/akkaGrpc/target/scala-2.13/akka-grpc/main[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema /home/aleksey/repos/otus-scala-grpc/akkaGrpc/src/main/protobuf/helloworld3.proto[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 8 Scala sources to /home/aleksey/repos/otus-scala-grpc/protoGrpc/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating Akka gRPC service interface for otus.scala.grpc.HelloWorld[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating Akka gRPC client for otus.scala.grpc.HelloWorld[0m
+[0m[[0m[0minfo[0m] [0m[0mGenerating Akka gRPC service handler for otus.scala.grpc.HelloWorld[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 9 Scala sources to /home/aleksey/repos/otus-scala-grpc/akkaGrpc/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 4 s, completed Jan 18, 2021, 8:38:08 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -1,0 +1,159 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addPluginSbtFile="""/tmp/idea7.sbt"""), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addPluginSbtFile="""/tmp/idea7.sbt""", None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.4.6 (Ubuntu Java 11.0.9.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: plugins took 84.107552ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: defsScala took 0.271116ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/aleksey/.sbt/1.0/plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/aleksey/.sbt/1.0/plugins, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 18.597363 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.resolveProject(global-plugins) took 40.239559ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/aleksey/.sbt/1.0/plugins, plugins: List(<none>))) took 83.14758ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/aleksey/.sbt/1.0/plugins, returning: (global-plugins)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: loadedProjectsRaw took 101.413472ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: cleanEvalClasses took 0.259087ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit(file:/home/aleksey/.sbt/1.0/plugins/, ...) took 193.229232ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: load took 385.942127ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: resolveProjects took 7.376668ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: finalTransforms took 64.245977ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: config.delegates took 7.056961ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: Def.make(settings)... took 434.307035ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: structureIndex took 107.092905ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: mkStreams took 2.05089ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from /home/aleksey/.sbt/1.0/plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 2433.69466ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 14.858765ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.004132ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/aleksey/repos/otus-scala-grpc/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 6.204079ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/aleksey/repos/otus-scala-grpc/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 1.615156 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project otus-scala-grpc-build from plugins.sbt,protoc.sbt,idea7.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(otus-scala-grpc-build) took 2.989442ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id otus-scala-grpc-build, base: /home/aleksey/repos/otus-scala-grpc/project, plugins: List(<none>))) took 5.157645ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/aleksey/repos/otus-scala-grpc/project, returning: (otus-scala-grpc-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 131.301607ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 3.433083ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/home/aleksey/repos/otus-scala-grpc/project/, ...) took 150.255719ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 151.502861ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 0.089576ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 12.174049ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 0.367016ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 91.308843ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 35.191159ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.002824ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/aleksey/repos/otus-scala-grpc/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 596.174788ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.003007ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/aleksey/repos/otus-scala-grpc[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 0.148099ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project root w/ remaining akkaGrpc,protoGrpc[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(akka.grpc.sbt.AkkaGrpcPlugin),Set(Atom(sbtprotoc.ProtocPlugin))), Clause(Atom(sbtprotoc.ProtocPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.portablescala.sbtplatformdeps.PlatformDepsPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtprotoc.ProtocPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.portablescala.sbtplatformdeps.PlatformDepsPlugin)))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.portablescala.sbtplatformdeps.PlatformDepsPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.450034 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project root from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(root) took 28.124312ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id root, base: /home/aleksey/repos/otus-scala-grpc, aggregate: List(LocalProject(akkaGrpc), LocalProject(protoGrpc)), plugins: List(!sbtprotoc.ProtocPlugin && !akka.grpc.sbt.AkkaGrpcPlugin))) took 32.188294ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project akkaGrpc @ /home/aleksey/repos/otus-scala-grpc/akkaGrpc[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(akka.grpc.sbt.AkkaGrpcPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(akka.grpc.sbt.AkkaGrpcPlugin),Set(Atom(sbtprotoc.ProtocPlugin))), Clause(Atom(sbtprotoc.ProtocPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.portablescala.sbtplatformdeps.PlatformDepsPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtprotoc.ProtocPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.portablescala.sbtplatformdeps.PlatformDepsPlugin)))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,akka.grpc.sbt.AkkaGrpcPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.portablescala.sbtplatformdeps.PlatformDepsPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.AutoPluginException: error determining plugins for project 'akkaGrpc' in /home/aleksey/repos/otus-scala-grpc/akkaGrpc:[0m
+[0m[[0m[31merror[0m] [0m[0mFailed to sort List(sbt.plugins.CorePlugin, akka.grpc.sbt.AkkaGrpcPlugin, sbt.plugins.Giter8TemplatePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, org.portablescala.sbtplatformdeps.PlatformDepsPlugin, sbt.plugins.SemanticdbPlugin, org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin, sbt.plugins.JUnitXmlReportPlugin, org.jetbrains.sbt.IdeaShellPlugin, org.jetbrains.sbt.StructurePlugin, sbt.plugins.MiniDependencyTreePlugin) topologically[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.AutoPluginException.withPrefix(Plugins.scala:138)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.translateAutoPluginException(Load.scala:985)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.finalizeProject$1(Load.scala:906)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.discoverAndLoad$1(Load.scala:928)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.loadTransitive(Load.scala:940)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.load$1(Load.scala:876)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.loadTransitive(Load.scala:973)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.loadProjects$1(Load.scala:726)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.$anonfun$loadUnit$11(Load.scala:729)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1382)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.$anonfun$loadUnit$1(Load.scala:729)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1382)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.loadUnit(Load.scala:688)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.$anonfun$builtinLoader$4(Load.scala:486)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BuildLoader$.$anonfun$componentLoader$5(BuildLoader.scala:180)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BuildLoader.apply(BuildLoader.scala:245)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.loadURI$1(Load.scala:548)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.loadAll(Load.scala:564)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.loadURI(Load.scala:494)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.load(Load.scala:473)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.$anonfun$apply$1(Load.scala:242)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1382)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.apply(Load.scala:242)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.Load$.defaultLoad(Load.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:932)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.BuiltinCommands$.doLoadProject(Main.scala:932)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:885)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:150)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:145)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Command$.process(Command.scala:189)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.$anonfun$processCommand$5(MainLoop.scala:242)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Option.getOrElse(Option.scala:189)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.process$1(MainLoop.scala:242)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.processCommand(MainLoop.scala:268)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.$anonfun$next$5(MainLoop.scala:162)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.State$StateOpsImpl$.runCmd$1(State.scala:289)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.State$StateOpsImpl$.process$extension(State.scala:325)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.$anonfun$next$4(MainLoop.scala:162)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.next(MainLoop.scala:162)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.run(MainLoop.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:118)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.io.Using.apply(Using.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:111)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:65)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.MainLoop$.runLogged(MainLoop.scala:41)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.StandardMain$.runManaged(Main.scala:191)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.xMain$.$anonfun$run$8(Main.scala:102)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Console$.withIn(Console.scala:230)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.withIn(Terminal.scala:557)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.$anonfun$withStreams$1(Terminal.scala:347)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Console$.withOut(Console.scala:167)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.$anonfun$withOut$2(Terminal.scala:547)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Console$.withErr(Console.scala:196)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.withOut(Terminal.scala:547)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.Terminal$.withStreams(Terminal.scala:347)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.xMain$.run(Main.scala:86)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:566)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.XMainConfiguration.run(XMainConfiguration.scala:83)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.xMain.run(Main.scala:46)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$$anonfun$run$1.apply(Launch.scala:111)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.withContextLoader(Launch.scala:131)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.run(Launch.scala:111)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$$anonfun$apply$1.apply(Launch.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.launch(Launch.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Launch$.apply(Launch.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Boot$.runImpl(Boot.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Boot$.main(Boot.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.boot.Boot.main(Boot.scala)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.AutoPluginException: error determining plugins for project 'akkaGrpc' in /home/aleksey/repos/otus-scala-grpc/akkaGrpc:[0m
+[0m[[0m[31merror[0m] [0m[0mFailed to sort List(sbt.plugins.CorePlugin, akka.grpc.sbt.AkkaGrpcPlugin, sbt.plugins.Giter8TemplatePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, org.portablescala.sbtplatformdeps.PlatformDepsPlugin, sbt.plugins.SemanticdbPlugin, org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin, sbt.plugins.JUnitXmlReportPlugin, org.jetbrains.sbt.IdeaShellPlugin, org.jetbrains.sbt.StructurePlugin, sbt.plugins.MiniDependencyTreePlugin) topologically[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadFailed, None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mProject loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
