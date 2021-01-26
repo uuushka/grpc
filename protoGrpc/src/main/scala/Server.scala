@@ -13,7 +13,7 @@ object Server extends App {
     override def helloStream(responseObserver: StreamObserver[HelloResponse]): StreamObserver[HelloRequest] = {
       new StreamObserver[HelloRequest] {
         override def onNext(value: HelloRequest): Unit =
-          responseObserver.onNext(HelloResponse("response for" + value.msg))
+          responseObserver.onNext(HelloResponse("response for " + value.msg))
 
         override def onError(t: Throwable): Unit = println(t)
 
